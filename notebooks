@@ -1,4 +1,4 @@
-## 🚀 Project Overview
+🚀 Project Overview
 - **Objective:** Predict the probability of credit events (default vs. non-default) using financial ratios and classification models.  
 - **Workflow:**  
   1. Data balancing with **upsampling** to address class imbalance.  
@@ -6,12 +6,12 @@
   3. Model training and hyperparameter tuning with **Logistic Regression**.  
   4. Evaluation using **ROC AUC, precision, recall, F1-score, and accuracy**.  
 
-## 🛠️ Methods
+🛠️ Methods
 - **Balancing:** Implemented an upsampling strategy to equalize minority and majority classes.  
 - **Feature Engineering:** Created financial ratios such as Debt-to-Equity Ratio (DER), Current Ratio (CR), Gross Profit Margin (GPM), Return on Equity (ROE), Return on Assets (ROA), and Indebtedness Ratio (IR).  
 - **Model Selection:** Used **GridSearchCV** with cross-validation to optimize Logistic Regression hyperparameters.  
 
-## 📈 Results
+📈 Results
 - **Best Logistic Regression Model:** AUC ≈ **0.76** (cross-validation).  
 - **Classification Report (Test Set):**  
   - Precision: ~0.71 (class 0), 0.68 (class 1)  
@@ -20,7 +20,7 @@
 
 These results show the model effectively balances sensitivity (recall) and precision for credit event prediction.  
 
-## ▶️ Run in Google Colab
+▶️ Run in Google Colab
 You can open and run this project directly in Colab:  
 
 https://colab.research.google.com/drive/1bhWCfzFla54Em21gYMs6BTnR8wc1Jro0?usp=sharing
